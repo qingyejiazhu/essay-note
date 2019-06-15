@@ -1,4 +1,24 @@
-# Summary
+# Summary1
+
+## Part I gitbook
+* [Introduction](README.md)
+* [GitBook 从懵逼到入门](part1/writing.md)
+* [GitBook插件整理](part1/gitbook.md)
+* [gitbook插件使用样例](part1/better_tools.md)
+
+## Part II spring
+* [spring技巧](part2/spring技巧.md)
+
+## Part M note 
+
+* [note](note/SUMMARY.md)
+
+## Part N 其他
+
+* [git](partn/git.md)
+
+-----
+# Summary2
 
 * [前言](README.md)
 
@@ -91,9 +111,6 @@
 * [GIT](chapter/git/README.md)
   * [GIT远程仓库回退](chapter/git/远程仓库回退.md)
   * [分支管理](chapter/git/branch.md)
-  * [从GitHub拉取](chapter/git/从github拉取.md)
-  * [ssh-keygen](chapter/git/ssh-keygen.md)
-  * [Git基本操作](chapter/git/git.md)
 
 ---
 
@@ -175,9 +192,7 @@
     * [MessagePack编解码](chapter/netty/middleCodec/MessagePack.md)
     * [GoogleProtobuf编解码](chapter/netty/middleCodec/GoogleProtobuf.md)
     * [JBossMarshalling编解码](chapter/netty/middleCodec/JBossMarshalling.md)
-  
 * [ZooKeeper](chapter/zooKeeper/README.md)
-
 * [WebSocket](chapter/websocket/index.md)
   * [Spring-WebSocket](chapter/websocket/spring.md)
     * [websocketDemo](chapter/websocket/spring/websocket.md)
@@ -186,27 +201,13 @@
     * [stomp-新闻展示示例](chapter/websocket/spring/stomp-demo.md)
     * [stomp-广播-公共新闻订阅](chapter/websocket/spring/stomp-topic.md)
     * [stomp-点对点-自由订阅](chapter/websocket/spring/stomp-queue.md)
-  
 * [监控相关](chapter/monitor/index.md)
-
 * [动脑学院公开课](chapter/dongnaoeduo_open/README.md)
-  
   * [常见网站攻击方式以及防范手段](chapter/dongnaoeduo_open/常见网站攻击方式以及防范手段.md)
-  
   * [阿里双11秒杀模式管理与实现](chapter/dongnaoeduo_open/阿里双11秒杀模式管理与实现.md)
-  
   * [缓存并发的解决和抽象](chapter/dongnaoeduo_open/缓存并发的解决和抽象.md)
-  
   * [性能优化之数据库连接池原理详解](chapter/dongnaoeduo_open/性能优化之数据库连接池原理详解.md)
-  
   * [Tomcat实现原理之手写实现](chapter/dongnaoeduo_open/Tomcat实现原理之手写实现.md)
-  
-* gitbook
-  
-  * [GitBook 从懵逼到入门](chapter/gitbook/GitBook 从懵逼到入门.md)
-  
-  * [GitBook插件整理](chapter/gitbook/GitBook插件整理.md)
-  
-    
-  
-    
+
+* [Last part without title](part3/title.md)
+

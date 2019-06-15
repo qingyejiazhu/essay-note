@@ -1,0 +1,136 @@
+{
+    "title": "zhanzhanlusi's book",
+    "author": "高晓峰",
+    "description": "我的书",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "styles": {
+        "website": "./styles/website.css"
+    },
+    "structure": {
+        "readme": "README.md"
+    },
+    "links": {
+        "sidebar": {
+            "zhanzhanlusi": "https://github.com/qingyejiazhu"
+        }
+    },
+    "plugins": [
+		"-lunr", 
+        "-search", 
+        "search-pro",
+        "-sharing",
+        "splitter",
+        "expandable-chapters-small",
+        "anchors",
+        "github",
+        "github-buttons",
+        "donate",
+        "sharing-plus",
+        "anchor-navigation-ex",
+        "favicon",
+		"insert-logo",
+		"code",
+		"todo",
+        "emphasize",
+		"tbfed-pagefooter",
+		"sectionx",
+		"flexible-alerts",
+		"auto-scroll-table",
+		"lightbox",
+		"-pageview-count",
+		"-klipse",
+		"-page-treeview",
+		"-prism"
+    ],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/qingyejiazhu"
+        },
+		"tbfed-pagefooter": {
+            "copyright":"Copyright &copy github.qingyejiazhu.com 2019",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+		"page-treeview": {
+            "copyright": "Copyright &#169; aleen42",
+            "minHeaderCount": "5",
+            "minHeaderDeep": "5"
+        },
+        "github-buttons": {
+            "buttons": [{
+                "user": "qingyejiazhu",
+                "repo": "mybook",
+                "type": "star",
+                "size": "small",
+                "count": true
+                }
+            ]
+        },
+		"code": {
+            "copyButtons": true
+        },
+        "donate": {
+            "alipay": "./source/images/donate.png",
+            "wechat": "/images/qr.png",
+			"alipay": "http://blog.willin.wang/static/images/qr.png",
+		    "title": "",
+			"button": "捐赠",
+			"alipayText": "支付宝捐赠",
+			"wechatText": "微信捐赠"
+        },
+        "sharing": {
+            "douban": false,
+            "facebook": false,
+            "google": false,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": false,
+            "linkedin": false,
+            "messenger": false,
+            "pocket": false,
+            "qq": false,
+            "qzone": false,
+            "stumbleupon": false,
+            "twitter": false,
+            "viber": false,
+            "vk": false,
+            "weibo": false,
+            "whatsapp": false,
+            "all": [
+                "weibo", "qq", "qzone", "linkedin", "pocket", "google", "facebook", "twitter"
+            ]
+        },
+        "anchor-navigation-ex": {
+            "showLevel": false
+        },
+        "favicon":{
+            "shortcut": "./source/images/favicon.jpg",
+            "bookmark": "./source/images/favicon.jpg",
+            "appleTouch": "./source/images/apple-touch-icon.jpg",
+            "appleTouchMore": {
+                "120x120": "./source/images/apple-touch-icon.jpg",
+                "180x180": "./source/images/apple-touch-icon.jpg"
+            }
+        },
+		"insert-logo": {
+            "url": "/image/2_qingyejiazhu.png",
+            "style": "background: none; max-height: 30px; min-height: 30px"
+		},
+		"prism": {
+		   "css": [
+			 "prismjs/themes/prism-okaidia.css"
+		   ],
+		   "lang": {
+			 "shell": "bash"
+		    }
+		},
+		"anchor-navigation-ex":{
+		   "multipleH1":false,
+		   "printLog":true
+		},
+		"theme-default": {
+		   "showLevel": true
+		}
+    }
+}
