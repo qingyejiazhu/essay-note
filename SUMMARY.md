@@ -94,6 +94,7 @@
   * [从GitHub拉取](chapter/git/从github拉取.md)
   * [ssh-keygen](chapter/git/ssh-keygen.md)
   * [Git基本操作](chapter/git/git.md)
+  * [git命令行ssh连接github](chapter/git/git命令行ssh连接github.md)
 
 ---
 
