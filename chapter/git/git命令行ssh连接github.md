@@ -281,3 +281,22 @@ $git pull –rebase origin master
 7、去到GitHub上绵看下你的文件，多了helloworld.txt,完成
 
 ![img](assets/2018053118453132.png)
+
+# HttpRequestException encountered解决方法   
+
+​    今天在Windows上通过idea提交项目到Github ，始终弹出如下错误:
+
+![img](assets/20180703210149324.png)
+
+
+
+百度发现是Github 禁用了TLS v1.0 and v1.1，必须更新Windows的git凭证管理器。
+
+通过此网址<https://github.com/Microsoft/Git-Credential-Manager-for-Windows/releases/>
+
+![img](assets/2018070321023872.png)
+
+
+
+
+
